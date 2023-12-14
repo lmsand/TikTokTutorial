@@ -18,6 +18,10 @@
 		C7C882DA2B2AD580002ACE66 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882D92B2AD580002ACE66 /* UserCell.swift */; };
 		C7C882DC2B2AD7C6002ACE66 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882DB2B2AD7C6002ACE66 /* NotificationsView.swift */; };
 		C7C882DE2B2AD7CE002ACE66 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882DD2B2AD7CE002ACE66 /* NotificationCell.swift */; };
+		C7C882E02B2AE1D0002ACE66 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882DF2B2AE1CF002ACE66 /* CurrentUserProfileView.swift */; };
+		C7C882E22B2AE2A7002ACE66 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882E12B2AE2A7002ACE66 /* ProfileHeaderView.swift */; };
+		C7C882E42B2AE2B4002ACE66 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882E32B2AE2B4002ACE66 /* PostGridView.swift */; };
+		C7C882E82B2AE51F002ACE66 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882E72B2AE51F002ACE66 /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		C7C882D92B2AD580002ACE66 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		C7C882DB2B2AD7C6002ACE66 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		C7C882DD2B2AD7CE002ACE66 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		C7C882DF2B2AE1CF002ACE66 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		C7C882E12B2AE2A7002ACE66 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		C7C882E32B2AE2B4002ACE66 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		C7C882E72B2AE51F002ACE66 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +181,9 @@
 		C7C882CB2B2ABAE4002ACE66 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				C7C882E52B2AE4E6002ACE66 /* Components */,
+				C7C882E62B2AE4F2002ACE66 /* View */,
+				C7C882DF2B2AE1CF002ACE66 /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -214,6 +225,23 @@
 			children = (
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C7C882E52B2AE4E6002ACE66 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C7C882E12B2AE2A7002ACE66 /* ProfileHeaderView.swift */,
+				C7C882E32B2AE2B4002ACE66 /* PostGridView.swift */,
+				C7C882E72B2AE51F002ACE66 /* UserStatView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C7C882E62B2AE4F2002ACE66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,11 +316,15 @@
 			files = (
 				C7C882D42B2AC081002ACE66 /* FeedView.swift in Sources */,
 				C7C882DE2B2AD7CE002ACE66 /* NotificationCell.swift in Sources */,
+				C7C882E22B2AE2A7002ACE66 /* ProfileHeaderView.swift in Sources */,
+				C7C882E82B2AE51F002ACE66 /* UserStatView.swift in Sources */,
 				C7C882D62B2AD115002ACE66 /* FeedCell.swift in Sources */,
 				C7C882B62B2ABA1D002ACE66 /* ContentView.swift in Sources */,
 				C7C882B42B2ABA1D002ACE66 /* TikTokTutorialApp.swift in Sources */,
 				C7C882D82B2AD568002ACE66 /* ExploreView.swift in Sources */,
 				C7C882D22B2ABBA9002ACE66 /* MainTabView.swift in Sources */,
+				C7C882E42B2AE2B4002ACE66 /* PostGridView.swift in Sources */,
+				C7C882E02B2AE1D0002ACE66 /* CurrentUserProfileView.swift in Sources */,
 				C7C882DA2B2AD580002ACE66 /* UserCell.swift in Sources */,
 				C7C882DC2B2AD7C6002ACE66 /* NotificationsView.swift in Sources */,
 			);
