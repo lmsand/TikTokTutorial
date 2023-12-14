@@ -22,6 +22,8 @@
 		C7C882E22B2AE2A7002ACE66 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882E12B2AE2A7002ACE66 /* ProfileHeaderView.swift */; };
 		C7C882E42B2AE2B4002ACE66 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882E32B2AE2B4002ACE66 /* PostGridView.swift */; };
 		C7C882E82B2AE51F002ACE66 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882E72B2AE51F002ACE66 /* UserStatView.swift */; };
+		C7C882EA2B2AEE31002ACE66 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882E92B2AEE31002ACE66 /* Post.swift */; };
+		C7C882EF2B2AEEB2002ACE66 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882EE2B2AEEB2002ACE66 /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		C7C882E12B2AE2A7002ACE66 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		C7C882E32B2AE2B4002ACE66 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		C7C882E72B2AE51F002ACE66 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
+		C7C882E92B2AEE31002ACE66 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C7C882EE2B2AEEB2002ACE66 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,7 @@
 		C7C882C32B2ABA54002ACE66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C7C882E92B2AEE31002ACE66 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,8 +205,9 @@
 		C7C882CD2B2ABAE6002ACE66 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				C7C882D32B2AC081002ACE66 /* FeedView.swift */,
-				C7C882D52B2AD115002ACE66 /* FeedCell.swift */,
+				C7C882ED2B2AEE91002ACE66 /* Service */,
+				C7C882EC2B2AEE8D002ACE66 /* View */,
+				C7C882EB2B2AEE88002ACE66 /* ViewModel */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -242,6 +248,30 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C7C882EB2B2AEE88002ACE66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7C882EE2B2AEEB2002ACE66 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C7C882EC2B2AEE8D002ACE66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7C882D52B2AD115002ACE66 /* FeedCell.swift */,
+				C7C882D32B2AC081002ACE66 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7C882ED2B2AEE91002ACE66 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +349,8 @@
 				C7C882E22B2AE2A7002ACE66 /* ProfileHeaderView.swift in Sources */,
 				C7C882E82B2AE51F002ACE66 /* UserStatView.swift in Sources */,
 				C7C882D62B2AD115002ACE66 /* FeedCell.swift in Sources */,
+				C7C882EF2B2AEEB2002ACE66 /* FeedViewModel.swift in Sources */,
+				C7C882EA2B2AEE31002ACE66 /* Post.swift in Sources */,
 				C7C882B62B2ABA1D002ACE66 /* ContentView.swift in Sources */,
 				C7C882B42B2ABA1D002ACE66 /* TikTokTutorialApp.swift in Sources */,
 				C7C882D82B2AD568002ACE66 /* ExploreView.swift in Sources */,
