@@ -14,6 +14,8 @@
 		C7C882D22B2ABBA9002ACE66 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882D12B2ABBA9002ACE66 /* MainTabView.swift */; };
 		C7C882D42B2AC081002ACE66 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882D32B2AC081002ACE66 /* FeedView.swift */; };
 		C7C882D62B2AD115002ACE66 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882D52B2AD115002ACE66 /* FeedCell.swift */; };
+		C7C882D82B2AD568002ACE66 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882D72B2AD568002ACE66 /* ExploreView.swift */; };
+		C7C882DA2B2AD580002ACE66 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C882D92B2AD580002ACE66 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		C7C882D12B2ABBA9002ACE66 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		C7C882D32B2AC081002ACE66 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		C7C882D52B2AD115002ACE66 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		C7C882D72B2AD568002ACE66 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		C7C882D92B2AD580002ACE66 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,8 @@
 		C7C882C92B2ABAE3002ACE66 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				C7C882D72B2AD568002ACE66 /* ExploreView.swift */,
+				C7C882D92B2AD580002ACE66 /* UserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -278,7 +284,9 @@
 				C7C882D62B2AD115002ACE66 /* FeedCell.swift in Sources */,
 				C7C882B62B2ABA1D002ACE66 /* ContentView.swift in Sources */,
 				C7C882B42B2ABA1D002ACE66 /* TikTokTutorialApp.swift in Sources */,
+				C7C882D82B2AD568002ACE66 /* ExploreView.swift in Sources */,
 				C7C882D22B2ABBA9002ACE66 /* MainTabView.swift in Sources */,
+				C7C882DA2B2AD580002ACE66 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
